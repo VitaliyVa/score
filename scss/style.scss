@@ -1,0 +1,28 @@
+@import 'fonts';
+@import 'header';
+@import 'printing-house';
+@import 'colors';
+@import 'sect-four';
+@import 'footer';
+
+body {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 975px;
+	margin: 0 auto;
+
+}
+img {
+	 	max-width: 100%;
+		height: auto;
+	 }

@@ -367,7 +367,10 @@ header {
 @media (max-width: 362px) {
   .plus {
     margin-top: 30px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .text__title {
+    font-size: 30pt; } }
 @media (max-width: 352px) {
   #shadow-2 {
     left: -43%;
@@ -702,7 +705,7 @@ header {
     top: 60%; } }
 @media (max-width: 896px) {
   .animated-wrap {
-    width: 378px;
+    max-width: 378px;
     margin-bottom: 2px;
     margin-top: -50px; }
 

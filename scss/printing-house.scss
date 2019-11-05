@@ -29,7 +29,7 @@
 
 }
 .img-roboto-wrap {
-
+	width: 350px;
 	padding-top: 42px;
 
 	margin-left: 100px;
@@ -81,4 +81,9 @@
 	.printing-house {
 		background-size: 300px auto;
 		}
+}
+@media (max-width: 385px) {
+	.img-roboto-wrap {
+	width: 280px;
+	}
 }

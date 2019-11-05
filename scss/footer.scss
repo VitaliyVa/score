@@ -1,9 +1,14 @@
 footer {
-	background: url(../img/footer-bg.png) no-repeat center top,
-	#D3A543;
+	background-color: #D3A543;
 
 	
 }
+.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 20px;
+	background-size: 50%;
+	height: 260px;
+}
+
 .line {
 	max-width: 237px;
 	margin: 0 auto;
@@ -48,4 +53,61 @@ footer {
 	max-width: 183px;
 	margin: 0 auto;
 	padding-bottom: 50px;
+	
 }
+@media (max-width: 952px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 20px;
+	background-size: 60%;
+	}
+}
+@media (max-width: 801px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 30px;
+	background-size: 70%;
+	}
+}
+@media (max-width: 750px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 30px;
+	background-size: 70%;
+	}
+}
+@media (max-width: 700px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 30px;
+	background-size: 80%;
+	}
+}
+@media (max-width: 593px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 30px;
+	background-size: 90%;
+	}
+}
+@media (max-width: 516px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 30px;
+	background-size: 100%;
+	}
+}
+@media (max-width: 459px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 35px;
+	background-size: 120%;
+	}
+}
+@media (max-width: 394px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 50px;
+	background-size: 130%;
+	}
+}
+@media (max-width: 340px) {
+	.footer-block {
+	background: url(../img/footer-bg.png) no-repeat center top 60px;
+	background-size: 130%;
+	}
+}
+
+

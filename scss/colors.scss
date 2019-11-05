@@ -13,11 +13,11 @@
 
 #shadow-4 {
 	left: -40%;
-	top: 50%;
+	top: 60%;
 
 }
 #shadow-5 {
-	top: -80%;
+	top: -48%;
 	left: -44%;
 
 }
@@ -37,6 +37,8 @@
 	padding-top: 100px;
 	z-index: 5;
 	background-color: #fff;
+		border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }
 .palitre__profile {
 	width: 150px;
@@ -69,6 +71,7 @@
 	height: 200px;
 	background-color: #FEFEFE;
 	border-bottom-right-radius: 20px;
+
 }
 .id__color {
 	margin: 0 auto;
@@ -139,11 +142,11 @@
 @media (max-width: 1336px) {
 	#shadow-4 {
 	left: -25%;
-	top: 50%;
+
 
 	}
 	#shadow-5 {
-	top: -80%;
+
 	left: -34%;
 
 	}
@@ -151,10 +154,10 @@
 @media (max-width: 1199px) {
 	#shadow-4 {
 	left: -20%;
-	top: 50%;
+	
 	}
 	#shadow-5 {
-	top: -80%;
+
 	left: -25%;
 
 	}
@@ -170,24 +173,29 @@
 }
 @media (max-width: 811px) {
 	#shadow-4 {
+		top: 65%;
 	font-size: 60pt;
 	
 	}
 	#shadow-5 {
+		top: -38%;
 	font-size: 60pt;
 	}
 }
 @media (max-width: 699px) {
 	#shadow-4 {
+		top: 70%;
 	font-size: 50pt;
 	
 	}
 	#shadow-5 {
+		top: -25%;
 	font-size: 50pt;
 	}
 }
 @media (max-width: 647px) {
 	#shadow-4 {
+		top: 73%;
 	font-size: 45pt
 	
 	}
@@ -211,11 +219,11 @@
 	}
 	#shadow-4 {
 	left: -20%;
-	top: 60%;
+	
 	
 	}
 	#shadow-5 {
-	top: 15%;
+	top: 30%;
 	left: -25%;
 
 	}
@@ -224,11 +232,11 @@
 	#shadow-4 {
 		font-size: 34pt;
 	left: -20%;
-	top: 70%;
+
 	}
 	#shadow-5 {
 		font-size: 30pt;
-	top: 25%;
+	
 	left: -25%;
 
 	}
@@ -244,8 +252,9 @@
 }
 @media (max-width: 378px) {
 	#shadow-4 {
+		top: 60%;
 	left: -20%;
-	top: 60%;
+	
 	}
 }
 

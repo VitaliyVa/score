@@ -16,9 +16,18 @@
 #last-img-1 {
 	min-height: 715px;
 }
+
 #last-img-3, #last-img-4 {
 	min-height: 623px;
 }
+#last-img-4 {
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
 
 #last-img-5 {
 	min-height: 810px;

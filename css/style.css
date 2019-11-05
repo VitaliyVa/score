@@ -639,6 +639,10 @@ header {
   .img-color-wrap span {
     padding-top: 20px;
     margin-bottom: 10px; }
+  .img-color-wrap img {
+    -webkit-box-shadow: -4px -1px 9px 0px #c2c2c2;
+    -moz-box-shadow: -4px -1px 9px 0px #c2c2c2;
+    box-shadow: -4px -1px 9px 0px #c2c2c2; }
 
 .img-color__profile {
   width: 245px;
@@ -661,6 +665,10 @@ header {
     width: 422px;
     max-height: 422px;
     box-shadow: -6px 4px 19px -1px #aba1ab; }
+
+.fix_sub {
+  min-height: 90px;
+  text-align: center; }
 
 @media (max-width: 1336px) {
   #shadow-4 {

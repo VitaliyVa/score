@@ -485,7 +485,6 @@ header {
     width: 90%;
     height: auto; } }
 .printing-house {
-  background: url("../img/bg-text-sect-2.jpg") left top 128px no-repeat;
   min-height: 720px;
   background-color: #D8AF57; }
   .printing-house .animated-container {
@@ -493,6 +492,11 @@ header {
     .printing-house .animated-container p {
       color: #fff;
       max-width: 420px; }
+
+#sh-6 {
+  font-size: 110px;
+  top: 55%;
+  color: #F0DAB6; }
 
 .title-second__two {
   padding-top: 200px;
@@ -514,6 +518,33 @@ header {
 #roboto-2 {
   padding-top: 22px; }
 
+@media (max-width: 1538px) {
+  #sh-6 {
+    left: -30%; } }
+@media (max-width: 1271px) {
+  #sh-6 {
+    left: -20%; } }
+@media (max-width: 1071px) {
+  #sh-6 {
+    left: -10%; } }
+@media (max-width: 871px) {
+  #sh-6 {
+    top: 67%;
+    left: -10%;
+    font-size: 80px; } }
+@media (max-width: 671px) {
+  #sh-6 {
+    left: -10%; } }
+@media (max-width: 536px) {
+  #sh-6 {
+    top: 74%;
+    font-size: 60px; } }
+@media (max-width: 471px) {
+  #sh-6 {
+    left: -10%; } }
+@media (max-width: 380px) {
+  #sh-6 {
+    font-size: 45px; } }
 @media (max-width: 992px) {
   .container {
     width: 100%;
@@ -525,24 +556,12 @@ header {
 
   .printing-house .title-second__two, .printing-house .animated-wrap {
     padding-left: 15%; } }
-@media (max-width: 896px) {
-  .printing-house {
-    background-size: 700px auto; } }
-@media (max-width: 702px) {
-  .printing-house {
-    background-size: 500px auto; } }
 @media (max-width: 529px) {
   .title-second__two, .animated-wrap {
     padding-left: 0; }
 
   .img-roboto-wrap {
-    margin-left: 0; }
-
-  .printing-house {
-    background-size: 400px auto; } }
-@media (max-width: 402px) {
-  .printing-house {
-    background-size: 300px auto; } }
+    margin-left: 0; } }
 @media (max-width: 385px) {
   .img-roboto-wrap {
     width: 280px; } }
@@ -647,6 +666,7 @@ header {
 .img-color__profile {
   width: 245px;
   display: flex;
+  min-height: 500px;
   flex-direction: column;
   padding-left: 30px;
   padding-bottom: 100px; }
